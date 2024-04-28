@@ -5,8 +5,7 @@ import AVFoundation
 public class LightboxConfig {
   /// Whether to show status bar while Lightbox is presented
   public static var hideStatusBar = true
-  public static var showSeparatorView = true
-    
+
   public static var imageBackgroundColor = UIColor.black
 
   /// Provide a closure to handle selected video
@@ -34,6 +33,7 @@ public class LightboxConfig {
 
   public struct PageIndicator {
     public static var enabled = true
+    public static var showSeparatorView = true
     public static var separatorColor = UIColor(hex: "3D4757")
 
     public static var textAttributes: [NSAttributedString.Key: Any] = [
