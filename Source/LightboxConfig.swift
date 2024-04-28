@@ -5,6 +5,7 @@ import AVFoundation
 public class LightboxConfig {
   /// Whether to show status bar while Lightbox is presented
   public static var hideStatusBar = true
+  public static var showSeparatorView = true
     
   public static var imageBackgroundColor = UIColor.black
 
