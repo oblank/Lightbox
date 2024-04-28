@@ -52,6 +52,7 @@ open class LightboxController: UIViewController {
     let effect = UIBlurEffect(style: .dark)
     let view = UIVisualEffectView(effect: effect)
     view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    view.contentMode = .scaleAspectFit
 
     return view
   }()
