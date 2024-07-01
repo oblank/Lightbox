@@ -1,7 +1,6 @@
 import UIKit
 
 open class LightboxImage {
-
   open fileprivate(set) var image: UIImage?
   open fileprivate(set) var imageURL: URL?
   open fileprivate(set) var videoURL: URL?
